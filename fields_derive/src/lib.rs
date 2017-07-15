@@ -8,9 +8,9 @@ extern crate quote;
 use proc_macro::TokenStream;
 
 #[proc_macro_derive(FieldNames)]
-pub fn field<'a>(input: TokenStream) -> TokenStream {
+pub fn field(input: TokenStream) -> TokenStream {
 
-    use syn::{VariantData, Body, Ident};
+    use syn::Body;
 
     let s = input.to_string();
 
