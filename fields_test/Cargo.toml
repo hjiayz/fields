@@ -1,0 +1,8 @@
+[package]
+name = "fields_test"
+version = "0.1.0"
+authors = ["hjiayz <hjiayz@hotmail.com>"]
+
+[dependencies]
+fields_trait={version="0.1.0",path="../fields_trait"}
+fields_derive={version="0.1.0",path="../fields_derive"}

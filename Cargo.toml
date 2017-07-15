@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "fields_trait",
+    "fields_derive",
+    "fields_test",
+]

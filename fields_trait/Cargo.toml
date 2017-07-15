@@ -1,0 +1,6 @@
+[package]
+name = "fields_trait"
+version = "0.1.0"
+authors = ["hjiayz <hjiayz@hotmail.com>"]
+
+[dependencies]
