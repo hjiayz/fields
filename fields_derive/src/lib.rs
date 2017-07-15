@@ -20,7 +20,7 @@ pub fn field(input: TokenStream) -> TokenStream {
 
     let fields = match ast.body {
         Body::Struct(ref vars) => vars.fields(),
-        Body::Enum(_) => panic!("#[derive(Fields)] can only be used with structs"),
+        Body::Enum(_) => panic!("#[derive(FieldNames)] can only be used with structs"),
     };
 
     let sfields = fields
